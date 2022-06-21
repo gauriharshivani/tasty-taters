@@ -1,0 +1,158 @@
+.item {
+  margin: 3% auto;
+  width: 80%;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  border-radius: 8px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+.data {
+  padding: 2% 5%;
+  width: 100%;
+  height: 100%;
+}
+
+.data h2 {
+  font-size: 1.8vw;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.data p {
+  width: 70%;
+  color: #727272;
+  font-size: 1.2vw;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  padding-top: 3%;
+}
+
+.value {
+  background-color: #ebebeb;
+  display: flex;
+  align-items: center;
+  margin-right: 3%;
+  border-radius: 30px;
+  justify-content: space-between;
+}
+
+.value p {
+  width: 3%;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.value button {
+  border: none;
+  background-color: #c9c9c9;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 15px;
+}
+
+.quantity h4 {
+  color: #a80e0e;
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+
+
+@media screen and (max-width: 850px) {
+  h5 {
+    font-size: 1.5vw;
+  }
+  .item {
+    width: 85%;
+  }
+  .data h2 {
+    font-size: 2vw;
+  }
+  .data p {
+    font-size: 1.4vw;
+  }
+  .quantity h4 {
+    font-size: 2vw;
+  }
+  .value p {
+    padding: 7px;
+  }
+  .value button {
+    padding: 5px;
+  }
+  /* .final {
+    width: 85%;
+  }
+  .final button {
+    width: 23%;
+    font-size: 1.6vw;
+    padding: 10px;
+  }
+  .final p {
+    font-size: 2.2vw;
+  } */
+  footer p {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .item {
+    width: 90%;
+  }
+  .data {
+    padding: 1% 3%;
+  }
+  .data h2 {
+    font-size: 2.5vw;
+    padding-bottom: 5px;
+  }
+  .data p {
+    width: 80%;
+    font-size: 1.7vw;
+  }
+  .quantity h4 {
+    font-size: 2.5vw;
+  }
+  .value button {
+    padding: 3px;
+  }
+  /* .final {
+    width: 90%;
+  }
+  .final button {
+    width: 25%;
+    font-size: 1.8vw;
+    padding: 2%;
+  }
+  .final p {
+    font-size: 2.9vw;
+  } */
+  footer img {
+    width: 75px;
+  }
+  footer h6 {
+    font-size: 1.7vw;
+  }
+  footer p {
+    margin-top: 10px;
+    font-size: 2.7vw;
+  }
+  h5 {
+    font-size: 2vw;
+  }
+}

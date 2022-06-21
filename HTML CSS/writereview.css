@@ -1,0 +1,158 @@
+.gradient {
+  background-color: rgba(0, 0, 0, 0.753);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.review {
+  border-radius: 20px;
+  background-color: white;
+  position: fixed;
+  width: 60%;
+  top: 13%;
+  left: 20%;
+  /* height: 65%; */
+}
+
+.review img {
+  float: right;
+  width: 3%;
+  padding: 3%;
+}
+
+.content {
+  width: 80%;
+  margin: 10% auto;
+}
+
+.content h2 {
+  font-size: 2vw;
+  font-weight: 600;
+}
+
+.content h3 {
+  font-size: 1.6vw;
+  font-family: Montserrat;
+  font-weight: 400;
+  padding: 2% 0;
+}
+
+.ratebutton {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+}
+
+.ratebutton button {
+  display: flex;
+  background: none;
+  justify-content: center;
+  align-items: center;
+  width: 21%;
+  border: 1px solid #7e7e7e;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.ratebutton button:hover {
+  background-color: #efefef;
+}
+
+.rateimg img {
+  width: 15px;
+  padding: 10px;
+}
+
+.text {
+  font-size: 1vw;
+  font-weight: 500;
+}
+
+.text p {
+  font-size: 0.7vw;
+  font-weight: 400;
+}
+
+form input {
+  font-size: 1.2vw;
+  padding: 10px 0px;
+  color: #c3c3c3;
+  margin: 12px 0px;
+  border: none;
+  width: 90%;
+  border-bottom: 1px solid black;
+}
+
+.sendreview {
+  font-weight: 500;
+  margin-top: 3%;
+  padding: 3%;
+  border-radius: 30px;
+  color: white;
+  border: none;
+  width: 30%;
+  background-color: #d50304;
+}
+
+@media screen and (max-width: 850px) {
+  .ratebutton {
+    margin: 12px 0px;
+  }
+  .ratebutton button {
+    width: 30%;
+    margin: 8px;
+  }
+  form input {
+    font-size: 1.5vw;
+    margin: 9px 0px;
+  }
+  .sendreview {
+    font-weight: 400;
+    margin-top: 5%;
+    width: 35%;
+    font-size: 1.5vw;
+  }
+  .text {
+    font-weight: 600;
+  }
+  .text p {
+    font-size: 0.9vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .review img {
+    width: 6%;
+    padding: 5%;
+  }
+  .content h2 {
+    font-size: 3vw;
+  }
+  .content h3 {
+    font-size: 2.3vw;
+  }
+  .rateimg img {
+    width: 10px;
+    padding: 7px;
+  }
+  .ratebutton button {
+    width: 40%;
+  }
+  .text {
+    font-size: 1.7vw;
+  }
+  .text p {
+    font-size: 1.2vw;
+  }
+  form input {
+    font-size: 2vw;
+    margin: 7px 0px;
+  }
+  .sendreview {
+    width: 40%;
+    font-size: 2vw;
+    padding: 4%;
+  }
+}

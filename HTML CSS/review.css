@@ -1,0 +1,59 @@
+.content h2 {
+  font-weight: 500;
+}
+
+span {
+  font-weight: 700;
+}
+
+.lorem {
+  padding: 2% 0;
+  border-bottom: 1px solid black;
+}
+
+.lorem h3 {
+  font-size: 1.5vw;
+  font-weight: 500;
+  padding-top: 0px;
+}
+
+.lorem p {
+  font-size: 1.1vw;
+}
+
+@media screen and (max-width: 850px) {
+  .ratebutton {
+    margin: 8px 0px;
+  }
+  .lorem {
+    padding: 3% 0;
+  }
+  .lorem h3 {
+    font-size: 1.7vw;
+  }
+  .lorem p {
+    font-size: 1.3vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content h2 {
+    font-size: 4vw;
+    font-weight: 500;
+  }
+  span {
+    font-weight: 600;
+  }
+  .ratebutton {
+    margin: 3px 0px;
+  }
+  .lorem {
+    padding: 5% 0;
+  }
+  .lorem h3 {
+    font-size: 3vw;
+  }
+  .lorem p {
+    font-size: 2vw;
+}
+}
